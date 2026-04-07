@@ -10,6 +10,8 @@ char *ptr_grade = &grade;
 float *ptr_pi = &pi;
 printf("The value of X is: %d \n", x);
 printf("the location of X : %p", &x);
+printf("\n The value of Grade is: %d", grade);
+printf("\nTHe address of grade is : %p", &grade);
 
 
     return 0;
